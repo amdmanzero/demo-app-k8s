@@ -1,10 +1,10 @@
 pipeline {
     agent any
     environment {
-        APP_GIT_URL = "https://github.com/pornpasok/demo-app-k8s.git"
+        APP_GIT_URL = "https://github.com/amdmanzero/demo-app-k8s"
         APP_BRANCH = "main"
         //APP_TAG = "latest"
-        APP_NAME = "demo-app-k8s"
+        APP_NAME = "demo-app-k8s-boy"
         APP_PORT = "3000"
         DEV_PROJECT = "workshop-qa"
         SQ_SERVER = "https://sq.7-11.io"
